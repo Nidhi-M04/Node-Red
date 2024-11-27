@@ -1,0 +1,7 @@
+npm uninstall -g node-red
+npm uninstall -g node-red-dashboard
+npm cache clean --force
+npm install -g --unsafe-perm node-red
+npm root -g
+npm install -g node-red-dashboard
+node-red
